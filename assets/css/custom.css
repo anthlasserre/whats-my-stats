@@ -1,0 +1,156 @@
+.jumbotron {
+    background-color:orange !important
+}
+
+html {
+    height: 100%
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-bottom:60px
+}
+
+.form-pseudo {
+    display:block;
+    width:100%;
+    padding:15px 150px 18px 17px;
+    background:#F6F6F6;
+    border:none;
+    line-height:17px;
+    font-size:14px;
+    color:#9b9b9b;
+    box-sizing:border-box;
+    outline:none;
+    box-shadow:0 2px 2px 0 rgba(0, 0, 0, 0.19)
+}
+
+.form-search {
+    position:relative;
+    width:624px;
+    height:50px;
+    margin:0 auto;
+    border-radius:2px;
+    background-color:#fff
+}
+
+.form-submit {
+    position:absolute;
+    top:0;
+    right:0;
+    margin:10px 10px 0 0;
+    height:30px;
+    padding:0;
+    border:none;
+    background: none
+}
+
+.form-machine {
+    position:absolute;
+    top:0;
+    right:60px;
+    margin:10px 10px 0 0;
+    height:30px;
+    padding:0;
+    border:none;
+    background: none
+}
+
+.search-container {
+    margin: auto;
+    width: 50%;
+}
+
+.display-go {
+    display: inline-block;
+    vertical-align: middle;
+    text-indent: -99999px;
+    background-image: url('go.png');
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.display-machine {
+    display: inline-block;
+    vertical-align: middle;
+    text-indent: -99999px;
+    background-image: url('computer.png');
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.game img{
+    width: 200px;
+}
+
+.img-carousel{
+    max-width: 100%;
+  }
+
+.carousel-games {
+    height: 250px;
+}
+
+.login-overlay {
+    display: none;
+}
+
+.modal-padding-custom {
+    padding: 15px
+  }
+  
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+.hide {
+  display: none
+}
+
+.no-padding {
+  padding: 3px !important;
+  margin-bottom: 10px;
+}
+
+.checkbox-warning-filled [type="checkbox"][class*='filled-in']:checked+label:after {
+  border-color: #FF8800;
+  background-color: #FF8800;
+}
+
+[type=checkbox][class*=filled-in]:checked+label:before {
+    top: 0;
+    left: 1px;
+    width: 8px;
+    height: 13px;
+    border-color: transparent #fff #fff transparent;
+}
+
+.form-login {
+    display:block;
+    width:100%;
+    padding:15px 150px 12px 17px;
+    background:white;
+    border:none;
+    line-height:17px;
+    font-size:14px;
+    color:#9b9b9b;
+    box-sizing:border-box;
+    outline:none;
+    box-shadow:0 2px 2px 0 rgba(0, 0, 0, 0.19)
+}
+
+.form-check-custom {
+    margin-bottom: 10px;
+    padding-left: 0em;
+}

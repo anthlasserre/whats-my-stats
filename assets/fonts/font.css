@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Gamestation-Condensed';
+    src: url('./Gamestation-Condensed/Gamestation-Condensed.eot');
+    src: url('./Gamestation-Condensed/Gamestation-Condensed.woff2') format('woff2'),
+         url('./Gamestation-Condensed/Gamestation-Condensed.woff') format('woff'),
+         url('./Gamestation-Condensed/Gamestation-Condensed.ttf') format('truetype'),
+         url('./Gamestation-Condensed/Gamestation-Condensed.svg#Gamestation-Condensed') format('svg'),
+         url('./Gamestation-Condensed/Gamestation-Condensed.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Gamestation-CondensedOblique';
+    src: url('./Gamestation-CondensedOblique/Gamestation-CondensedOblique.eot');
+    src: url('./Gamestation-CondensedOblique/Gamestation-CondensedOblique.woff2') format('woff2'),
+         url('./Gamestation-CondensedOblique/Gamestation-CondensedOblique.woff') format('woff'),
+         url('./Gamestation-CondensedOblique/Gamestation-CondensedOblique.ttf') format('truetype'),
+         url('./Gamestation-CondensedOblique/Gamestation-CondensedOblique.svg#Gamestation-CondensedOblique') format('svg'),
+         url('./Gamestation-CondensedOblique/Gamestation-CondensedOblique.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
