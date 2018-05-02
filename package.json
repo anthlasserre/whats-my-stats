@@ -17,6 +17,7 @@
     "path": "^0.12.7",
     "pug": "^2.0.3",
     "rainbowsix-api-node": "0.0.1",
+    "rocketleague": "^1.0.2",
     "serve-favicon": "^2.5.0"
   }
 }
