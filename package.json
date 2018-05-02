@@ -16,6 +16,7 @@
     "overwatch-js": "^1.6.5",
     "path": "^0.12.7",
     "pug": "^2.0.3",
+    "rainbowsix-api-node": "0.0.1",
     "serve-favicon": "^2.5.0"
   }
 }
