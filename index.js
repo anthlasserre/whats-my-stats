@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 const favicon = require('serve-favicon')
 const path = require('path')
 
-const PORT = process.env.PORT || 80
+const PORT = process.env.PORT || 3000
 
 // Moteur pug
 app.set('view engine', 'pug')

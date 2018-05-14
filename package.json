@@ -11,9 +11,16 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
+<<<<<<< HEAD
+=======
+    "i": "^0.3.6",
+    "oversmash": "^1.3.3",
+>>>>>>> a2d9276c9f54c9bad2e3c94a8614c0a40badfd54
     "overwatch-js": "^1.6.5",
     "path": "^0.12.7",
     "pug": "^2.0.3",
+    "rainbowsix-api-node": "0.0.1",
+    "rocketleague": "^1.0.2",
     "serve-favicon": "^2.5.0"
   }
 }
