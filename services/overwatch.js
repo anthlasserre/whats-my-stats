@@ -11,11 +11,6 @@ module.exports = class Overwatch {
      * @param {*} battletag 
      */
     static searchPlayer(plateforme, zone, battletag) {
-        return new Promise((resolve, reject) => {
-            owjs.getAll(plateforme, zone, battletag)
-            .then((data) => {
-                resolve(data);
-            });
-        })
+        return owjs.getAll(plateforme, zone, battletag)
     }
 }
