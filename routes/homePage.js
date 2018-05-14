@@ -1,8 +1,9 @@
-const express = require('express')
-const routeur = express.Router()
+const Express = require('express')
+var routeur = Express.Router()
+const { search, home } = require('../controllers/games.js')
 
-routeur.get('/', async (req, res, next) =>{
-    res.status(200).render('index', {pageTitle: "What's My Stats"}) 
-})
+routeur.get('/', home)
+routeur.post('/search', search)
+
 
 module.exports = routeur

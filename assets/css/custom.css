@@ -154,3 +154,11 @@ body {
     margin-bottom: 10px;
     padding-left: 0em;
 }
+
+.custom-alert-pseudo {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 0rem;
+}
