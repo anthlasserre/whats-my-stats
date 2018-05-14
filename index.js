@@ -4,6 +4,19 @@ const bodyParser = require('body-parser')
 const favicon = require('serve-favicon')
 const path = require('path')
 
+// Mongo Params
+const MongoClient = require('mongodb').MongoClient;
+const mongoUrl = 'mongodb://localhost:27017/whatsmystats';
+const optionsMongo = { useNewUrlParser: true };
+
+// Connection MongoDb
+MongoClient.connect(mongoUrl, optionsMongo, function (err, db) {
+  if (err) throw 'Error connecting to database - ' + err;
+  app.listen(8000, function () {
+      console.log('MongoDB Listening on port 8000');
+  });
+});
+
 const PORT = process.env.PORT || 3000
 
 // Moteur pug
