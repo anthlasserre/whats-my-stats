@@ -1,6 +1,12 @@
-const express = require('express')
-const routeur = express.Router()
+const Express = require('express')
+var routeur = Express.Router()
+const { search, home } = require('../controllers/games.js')
 
+routeur.get('/', home)
+routeur.post('/search', search)
+
+<<<<<<< HEAD
+=======
 const OW = require('../services/overwatch.js')
 const R6 = require('../services/R6.js')
 const RL = require('../services/rocketleague.js')
@@ -29,5 +35,6 @@ routeur.get('/RocketLeague/:username', async(req,res,next) => {
         console.log(data)
     })
 })
+>>>>>>> a2d9276c9f54c9bad2e3c94a8614c0a40badfd54
 
 module.exports = routeur
