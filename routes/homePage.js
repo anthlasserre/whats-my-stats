@@ -11,21 +11,21 @@ routeur.get('/', async (req, res, next) =>{
 
 routeur.get('/overwatch/:battletag', async(req,res,next) => {
     res.status(200);
-    OW.searchPlayer('pc','eu',req.params.battletag).then(function(data) {
+    OW.searchPlayer('pc','eu',req.params.battletag).then((data) => {
         console.log(data)
     });
 })
 
 routeur.get('/R6/:username', async(req,res,next) => {
     res.status(200);
-    R6.searchPlayer('uplay',req.params.username).then(function(data) {
+    R6.searchPlayer('uplay',req.params.username).then((data) => {
         console.log(data)
     })
 })
 
 routeur.get('/RocketLeague/:username', async(req,res,next) => {
     res.status(200);
-    RL.searchPlayer('steam',req.params.username).then(function(data) {
+    RL.searchPlayer('steam',req.params.username).then((data) => {
         console.log(data)
     })
 })

@@ -5,10 +5,10 @@ const R6 = new R6Api()
 
 module.exports = class RainbowSix {
     static searchPlayer(platform,username) {
-        return new Promise((resolve, reject) => {
-            R6.stats(username,platform).then((response) => {
-                resolve(response);
-            })
-        })
+        R6.stats(username,platform).then((response) => {
+            console.log(response);
+        }).catch(error => {
+            console.error(error);
+        });
     }
 }
